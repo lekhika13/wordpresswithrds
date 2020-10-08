@@ -109,9 +109,9 @@ The above file will deploy the wordpress application. so finally use terraform a
 
 Deploying Wordpress Application
 
-<img src ="SCREENSHOTS/11.PNG" >
+<img src ="SCREENSHOTS/0.PNG" >
 
-<img src ="SCREENSHOTS/11.PNG" >
+<img src ="SCREENSHOTS/0(1).PNG" >
 
 We can see that terraform file is executed properly without any error now will check if the pods is running by kubectl get pods and kubectl get all -o wide commands
 
@@ -160,22 +160,22 @@ We can see that the conatiner is runnig properly and exposed to port 30000 so if
 
 ### The above terraform code for RDS will create RDS in AWS i have provided the database name username and password to login by wordpress.
 
-<img src ="SCREENSHOTS/11.PNG" >
+<img src ="SCREENSHOTS/0(2).PNG" >
 
-<img src ="SCREENSHOTS/11.PNG" >
+<img src ="SCREENSHOTS/0(3).PNG" >
 
 Now we can see that the terraform code has executed properly so we can check the RDS data base in AWS .
 
-<img src ="SCREENSHOTS/11.PNG" >
+<img src ="SCREENSHOTS/0(4).PNG" >
 
 Connecting RDS to Word Press
 
 finally we can connect wordpress application to our RDS database to providing the username password databse name and database host. Now go to google crome and type the minikube ip:30000 to launch the wordpress application
 
-<img src ="SCREENSHOTS/11.PNG" >
+<img src ="SCREENSHOTS/0(5).PNG" >
 
-<img src ="SCREENSHOTS/11.PNG" >
+<img src ="SCREENSHOTS/0(6).PNG" >
 
-<img src ="SCREENSHOTS/11.PNG" >
+<img src ="SCREENSHOTS/0(7).PNG" >
 
 We can see that wordpress is connected with our RDS database in aws and our website is working fine.
